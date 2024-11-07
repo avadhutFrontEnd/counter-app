@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #3-Your-First-React-Component_mp4_5min_20sec ] - First React `Class` component in `counter-app` project. 
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #5-Specifying-Children_mp4_4min_16sec ] - `React.Fragment`
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
