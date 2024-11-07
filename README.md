@@ -1,6 +1,13 @@
 # counter-app
 Created `counter-app`  React Project with JavaSc using Class components.
 
+# Commit message format : 
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #3-Your-First-React-Component_mp4_5min_20sec ] - First React `Class` component in `counter-app` project. 
+
+# my-github Account : 
+https://github.com/avadhutFrontEnd/counter-app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
