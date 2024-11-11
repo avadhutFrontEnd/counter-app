@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #5-Specifying-Children_mp4_4min_16sec ] - `React.Fragment`
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #6-Embedding-Expressions_mp4_4min_50sec ] - `state` property of Class component, used to display a value-dynamically and `JSX-Expression`.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
