@@ -6,33 +6,22 @@ class Counter extends Component {
     tags: ['tag1', 'tag2', 'tag3']
   };
 
+// ************** Approach 1 : `if` `else` statements :
+  renderTags() {
+    if (this.state.tags.length === 0) return <p>There are no tags!</p>;
+
+    return <ul>{this.state.tags.map(tag => <li key={tag}>{tag}</li>)}</ul>
+  }
+
   render() {
-// ********** Approach 1 : Ternary operator
-    // let classes = "badge m-2 badge-"; 
-	  // classes += this.state.count === 0 ? "warning" : "primary";
-	  
+
     return (
       <div>
-        {/* <span className={classes}>{this.formatCount()}</span>  */}
-        <span className={this.getBadgeClasses()}>{this.formatCount()}</span> 
-        <button className="btn btn-secondary btn-sm">Increment</button>
-        <ul>
-          {this.state.tags.map(tag => <li key={tag}>{tag}</li>)}
-        </ul>
+{/* ************** Approach 2 : `&` operator / "Short-circuit" : */}
+        {this.state.tags.length === 0 && "Please create a new Tag!"}
+        {this.renderTags()}
       </div>
     );
-  }
-
-// ********** Approach 2 : Wrap "Ternary operator" Logic in `Method` of Class-component.
-  getBadgeClasses() {
-    let classes = "badge m-2 badge-";
-    classes += this.state.count === 0 ? "warning" : "primary";
-    return classes;
-  }
-
-  formatCount() {
-    const { count } = this.state;
-    return count === 0 ? "Zero" : count; 
   }
 }
 

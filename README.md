@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #9-Rendering-Lists_mp4_3min_58sec ] - Rendering List Items using `map` Method.
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #10-Conditional-Rendering_mp4_6min_04sec ] - Conditional-Rendering using 2 Approach : 1. `if` `else` statement  2.`&` operator / "Short-circuit".
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
