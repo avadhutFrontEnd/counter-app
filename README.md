@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #8-Rendering-Classes-Dynamically_mp4_4min_18sec ] - Rendering-Classes-Dynamically using 2 Approach : 1.Ternary operator 2.Wrap Ternary operator Logic in `Method` of Class-component.
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #9-Rendering-Lists_mp4_3min_58sec ] - Rendering List Items using `map` Method.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
