@@ -5,10 +5,26 @@ class Counter extends Component {
     count: 0,
   };
 
-  handleIncrement() {
-    // Problem : "this" is "undefined" --> So, currently we don't have Access to the  "state" property and we can't increment "count".
-    console.log("Increment Clicked", this);
-  }
+// ******** Sol 1 : bind method --> bind event handlers to "this"
+  // constructor() {
+  //   super();
+  //   this.handleIncrement = this.handleIncrement.bind(this);
+  // }
+
+  // handleIncrement() {
+  //   console.log("Increment Clicked", this);
+  //   // obj.method();
+  //   // function();
+  // }
+ 
+
+// ******** Sol 2 : Arrow Function  
+handleIncrement = () => {
+  console.log("Increment Clicked", this);
+  // obj.method();
+  // function();
+}
+
 
   render() {
     return (
