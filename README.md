@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #10-Conditional-Rendering_mp4_6min_04sec ] - Conditional-Rendering using 2 Approach : 1. `if` `else` statement  2.`&` operator / "Short-circuit".
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #11-Handling-Events_mp4_2min_49sec ] - inside onClick Handler Function `handleIncrement` we can't Access to the  `state` property and we can't increment `count`. Bcoz, currently  `this` is "undefined".
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
