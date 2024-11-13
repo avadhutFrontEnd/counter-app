@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #12-Binding-Event-Handlers_mp4_4min_36sec ] - inside onClick Handler Function `handleIncrement` we can't Access to the  `state` property and we can't increment `count`. Bcoz, currently  `this` is "undefined" --> Sol 1 : bind method --> bind event handlers to "this", Sol 2 : Arrow Function  
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #13-Updating-the-State_mp4_2min_14sec  ] - now we have the access to the `current` object in our  Event_Handler Method `handleIncrement()`. so, Now lets Update the `State` --> Update `count` State property.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app

@@ -20,9 +20,11 @@ class Counter extends Component {
 
 // ******** Sol 2 : Arrow Function  
 handleIncrement = () => {
-  console.log("Increment Clicked", this);
-  // obj.method();
-  // function();
+  // this will not work :
+      // this.state.count++;
+
+  // Updateing the State --> way to change "count" State property :
+      this.setState({ count: this.state.count + 1 })
 }
 
 
