@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #13-Updating-the-State_mp4_2min_14sec  ] - now we have the access to the `current` object in our  Event_Handler Method `handleIncrement()`. so, Now lets Update the `State` --> Update `count` State property.
+[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #15-Passing-Event-Arguments_mp4_3min_04sec  ] - passing `Arguments` to Event-Handler function `handleIncrement`. Sol 1 : define another Event-Handler method "doHandleIncrement()" , Sol 2 : `Arrow` function.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app

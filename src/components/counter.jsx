@@ -5,35 +5,25 @@ class Counter extends Component {
     count: 0,
   };
 
-// ******** Sol 1 : bind method --> bind event handlers to "this"
-  // constructor() {
-  //   super();
-  //   this.handleIncrement = this.handleIncrement.bind(this);
-  // }
+  // ********* Sol 1 : define another Event-Handler method "doHandleIncrement()"
+  handleIncrement = (product) => {
+    console.log(product);
+    this.setState({ count: this.state.count + 1 });
+  };
 
-  // handleIncrement() {
-  //   console.log("Increment Clicked", this);
-  //   // obj.method();
-  //   // function();
-  // }
- 
-
-// ******** Sol 2 : Arrow Function  
-handleIncrement = () => {
-  // this will not work :
-      // this.state.count++;
-
-  // Updateing the State --> way to change "count" State property :
-      this.setState({ count: this.state.count + 1 })
-}
-
+  // doHandleIncrement = () => {
+  //   this.handleIncrement({ id: 1 });
+  // };
 
   render() {
     return (
       <div>
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
         <button
-          onClick={this.handleIncrement}
+          // onClick={this.doHandleIncrement}
+
+// ********* Sol - 2 : `Arrow` function
+          onClick={() => this.handleIncrement({ id: 1 })}
           className="btn btn-secondary btn-sm"
         >
           Increment
