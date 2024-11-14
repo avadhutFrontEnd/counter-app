@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 3-Components(1h) ] [ Video: #15-Passing-Event-Arguments_mp4_3min_04sec  ] - passing `Arguments` to Event-Handler function `handleIncrement`. Sol 1 : define another Event-Handler method "doHandleIncrement()" , Sol 2 : `Arrow` function.
+[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #2-Composing-Components_mp4_3min_45sec  ] -  React application is essentially a tree of components, so we can compose components together to build complex user interfaces.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
