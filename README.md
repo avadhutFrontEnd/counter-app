@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #3-Passing-Data-to-Components_mp4_3min_11sec ] - Passing Data to Components ( passing Data from 'Parent' component to 'Child' component )
+[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #4-Passing-Children_mp4_3min_10sec ] - `children-prop` : Passing `children-prop` from Parent_component and Render `children-prop` in Child_component.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
