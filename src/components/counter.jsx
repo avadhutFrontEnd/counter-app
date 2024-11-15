@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Counter extends Component {
   state = {
-    value: this.props.value,
+    value: this.props.counter.value,
   };
 
   handleIncrement = (product) => {
@@ -14,10 +14,6 @@ class Counter extends Component {
 
     return (
       <div>
-        {/* Render passed "<h4>Title</h4>" Children-Prop here */}
-        {/* {this.props.children} */}
-
-        <h4>{this.props.id}</h4>
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
         <button
           onClick={() => this.handleIncrement({ id: 1 })}
@@ -26,7 +22,7 @@ class Counter extends Component {
           Increment
         </button>
         {/* Raising an Delete "Event" */}
-        <button onClick={this.props.onDelete} className="btn btn-danger btn-sm m-2">Delete</button>
+        <button onClick={() => this.props.onDelete(this.props.counter.id)} className="btn btn-danger btn-sm m-2">Delete</button>
       </div>
     );
   }
