@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #4-Passing-Children_mp4_3min_10sec ] - `children-prop` : Passing `children-prop` from Parent_component and Render `children-prop` in Child_component.
+[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #7-Raising-and-Handling-Events_mp4_4min_52sec ] - in Child-component `<Counter />` component we are Raising an Delete "Event" and in Parent-component `<Counters />` component we are Handling Logic of Delete "Event" bcoz, in Parent-component `<Counters />` component we had 'counters' `State` and as per `Rule` The component that  owns a piece of the 'State' should be the one modifying it.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
