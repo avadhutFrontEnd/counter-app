@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #8-Updating-the-State_mp4_4min_38sec ] - Write logic in `<Counters />` component to Delete particular Counter using `filter` Method. 
+[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #9-Single-Source-of-Truth_mp4_3min_55sec ] - add 'Reset' Button in `<Counters />` component and Identify `Issue` the `reason` for this issue is 'we don't have a single source of Truth'
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
