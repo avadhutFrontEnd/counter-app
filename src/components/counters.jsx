@@ -11,6 +11,14 @@ class Counters extends Component {
     ],
   };
 
+  handleIncrement = counter => {
+    const counters = [...this.state.counters];
+    const index = counters.indexOf(counter);
+    counters[index] = { ...counter};
+    counters[index].value++;
+    this.setState({ counters });
+  }
+
   handleReset = () => {
     const counters = this.state.counters.filter((c) => {
       c.value = 0;
@@ -34,7 +42,7 @@ class Counters extends Component {
           <Counter
             key={counter.id}
             onDelete={this.handleDelete}
-            // instead of passing "value" and "id" as separate "props". we will simply pass the "counter" object itself, this object  includes everything we need to know about the counter, and also, in the  future we add a new property to this "counter" object, we don't have  to come back here and modify this code. Our "counter" object is  carrying all the data about a counter. 
+            onIncrement={this.handleIncrement}
             counter={counter}
           ></Counter>
         ))}
