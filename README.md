@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #10-Removing-the-Local-State_mp4_6min_47sec ] - Remove  the local "State" (and only rely on the `props`  and receive the data that this component needs), convert `<Counter />` component to `Controlled component`,  doesn't have it's own "state",  it receives all the data via `props` and raises `Events` whenever data needs to be changed.
+[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #11-Multiple-Components-in-Sync_mp4_5min_53sec ] - Change `Layout` and add new component `navbar.jsx`.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
