@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #11-Multiple-Components-in-Sync_mp4_5min_53sec ] - Change `Layout` and add new component `navbar.jsx`.
+[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #12-Lifting-the-State-Up_mp4_5min_36sec ] - We Lifted up the "state" of the `<Counters />` component To it's parent which is the `<App />` component.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
