@@ -1,21 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 
-class NavBar extends Component {
-  state = {};
-  render() {
-    return (
-      <nav className="navbar bg-body-tertiary">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar{" "}
-            <span className="badge badge-pill badge-secoundary">
-              {this.props.totalCounters}
-            </span>
-          </a>
-        </div>
-      </nav>
-    );
-  }
-}
+// Stateless  Functional Component
+
+// in functional components,  you need to add "props" as a parameter here
+const NavBar = (props) => {  
+  return (
+    <nav className="navbar bg-body-tertiary">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">
+          Navbar{" "}
+          <span className="badge badge-pill badge-secoundary">
+            {props.totalCounters}
+          </span>
+        </a>
+      </div>
+    </nav>
+  );
+};
 
 export default NavBar;
