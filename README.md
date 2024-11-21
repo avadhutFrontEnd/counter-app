@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #14-Destructuring-Arguments_mp4_2min_00sec ] - in `navbar.jsx` & `counters.jsx` component use `object destructuring`  to destructure this `props` Argument.
+[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #16-Mounting-Phase_mp4_5min_34sec ] - "First phase" is the `mounting phase`. In the `mounting phase` we have 3 Lifecycle hooks : 1. `constructor`,  2. `render`, 3. and `componentDidMount` React will call these methods in order. 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app

@@ -4,6 +4,8 @@ import React from "react";
 
 // use `object destructuring`  to destructure this "props" Argument
 const NavBar = ({ totalCounters }) => {  
+  console.log('NavBar - Rendered');
+  
   return (
     <nav className="navbar bg-body-tertiary">
       <div className="container-fluid">
