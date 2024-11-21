@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #13-Stateless-Functional-Components_mp4_2min_29sec ] - Convert `navbar.jsx` `Class` component into `Stateless  functional` component. 
+[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #14-Destructuring-Arguments_mp4_2min_00sec ] - in `navbar.jsx` & `counters.jsx` component use `object destructuring`  to destructure this `props` Argument.
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
