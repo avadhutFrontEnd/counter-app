@@ -2,7 +2,7 @@
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #16-Mounting-Phase_mp4_5min_34sec ] - "First phase" is the `mounting phase`. In the `mounting phase` we have 3 Lifecycle hooks : 1. `constructor`,  2. `render`, 3. and `componentDidMount` React will call these methods in order. 
+[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #17-Updating-Phase_mp4_4min_20sec  ] - "Second phase" is the `Update phase`. In the `Update phase` we have 2 Lifecycle hooks : 1. `render` and  2. `componentDidUpdate` React will call these methods in order. 
 
 # my-github Account : 
 https://github.com/avadhutFrontEnd/counter-app
