@@ -1,11 +1,11 @@
-# counter-app
+# counter-app 
 Created `counter-app`  React Project with JavaSc using Class components.
 
 # Commit message format : 
-[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #18-Unmount-Phase_mp4_1min_26sec  ] - "Third phase" is the `Unmount phase`. In the `Unmount phase` we have 1 Lifecycle hooks : 1. `componentWillUnmount` React will call these methods in order. 
+[Course: Mastering React 16 > 4-Composing Components(1h) ] [ Video: #20-Solution-Decrement-Button_mp4_4min_53sec  ] - 'Exercise' Solution --> Add Decrement Button.
 
 # my-github Account : 
-https://github.com/avadhutFrontEnd/counter-app
+https://github.com/avadhutFrontEnd/counter-app 
 
 
 # Getting Started with Create React App
